@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "boj-api-client"
-version = "0.1.1"
+version = "0.1.2"
 description = "Python client for Bank of Japan timeseries statistics API"
 readme = "README.md"
 license = "MIT"
