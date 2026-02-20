@@ -32,7 +32,9 @@
 pip install boj-api-client
 ```
 
-2026-02-20 時点で、`boj-api-client==0.1.0` を `pip install boj-api-client` で導入し、
+PyPI: https://pypi.org/project/boj-api-client/
+
+2026-02-20 時点で、`boj-api-client==0.1.1` を `pip install boj-api-client` で導入し、
 以下の API 呼び出しでデータ取得できることを確認済みです。
 
 - `getMetadata`（`db="FM08"`）
