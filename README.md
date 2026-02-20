@@ -26,6 +26,18 @@
 
 ## インストール
 
+通常利用（PyPI）:
+
+```bash
+pip install boj-api-client
+```
+
+2026-02-20 時点で、`boj-api-client==0.1.0` を `pip install boj-api-client` で導入し、
+以下の API 呼び出しでデータ取得できることを確認済みです。
+
+- `getMetadata`（`db="FM08"`）
+- `getDataCode`（`db="CO"`, `code=["TK99F1000601GCQ01000"]`）
+
 ローカル開発環境で使う場合:
 
 ```bash
