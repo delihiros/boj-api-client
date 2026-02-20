@@ -1,0 +1,39 @@
+{
+    "STATUS":  200,
+    "MESSAGEID":  "M181030I",
+    "MESSAGE":  "正常に終了しましたが、該当データはありませんでした。",
+    "DATE":  "2026-02-19T20:45:39.325+09:00",
+    "PARAMETER":  {
+                      "FORMAT":  "JSON",
+                      "LANG":  "JP",
+                      "DB":  "CO",
+                      "STARTDATE":  "195001",
+                      "ENDDATE":  "195004",
+                      "STARTPOSITION":  ""
+                  },
+    "NEXTPOSITION":  null,
+    "RESULTSET":  [
+                      {
+                          "SERIES_CODE":  "TK99F1000601GCQ01000",
+                          "NAME_OF_TIME_SERIES_J":  "D.I./業況/大企業/製造業/実績",
+                          "UNIT_J":  "%ポイント",
+                          "FREQUENCY":  "QUARTERLY",
+                          "CATEGORY_J":  "全国短観・判断項目",
+                          "LAST_UPDATE":  20251216,
+                          "VALUES":  {
+                                         "SURVEY_DATES":  [
+                                                              195001,
+                                                              195002,
+                                                              195003,
+                                                              195004
+                                                          ],
+                                         "VALUES":  [
+                                                        null,
+                                                        null,
+                                                        null,
+                                                        null
+                                                    ]
+                                     }
+                      }
+                  ]
+}

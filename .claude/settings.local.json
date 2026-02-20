@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest:*)",
+      "Bash(echo:*)",
+      "Bash(/c/Users/delihiros/codes/boj-api-client/.venv/Scripts/python.exe:*)",
+      "Bash(uv:*)",
+      "Bash(rye:*)",
+      "Bash(poetry:*)",
+      "Bash(pdm:*)",
+      "Bash(python -c:*)",
+      "Bash(\"c:\\\\Users\\\\delihiros\\\\codes\\\\boj-api-client\\\\.venv\\\\Scripts\\\\python.exe\" -m pytest -W error::RuntimeWarning --tb=short -q)",
+      "Bash(\"c:\\\\Users\\\\delihiros\\\\codes\\\\boj-api-client\\\\.venv\\\\Scripts\\\\python.exe\" -m pytest -q -W error::RuntimeWarning tests/unit tests/unit_async tests/integration tests/integration_async)",
+      "Bash(\"c:\\\\Users\\\\delihiros\\\\codes\\\\boj-api-client\\\\.venv\\\\Scripts\\\\python.exe\" -m pytest:*)",
+      "Bash(wc:*)",
+      "Bash(.venv/Scripts/python.exe -m pytest:*)",
+      "Bash(\"c:/Users/delihiros/codes/boj-api-client/.venv/Scripts/python.exe\" --version)",
+      "Bash(\"c:/Users/delihiros/codes/boj-api-client/.venv/Scripts/python.exe\" -c \":*)"
+    ]
+  }
+}
