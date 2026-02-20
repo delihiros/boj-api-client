@@ -19,7 +19,8 @@ def main() -> None:
 
     async_source = async_path.read_text(encoding="utf-8")
     sync_source = generate_sync_orchestrator_source(async_source)
-    sync_path.write_text(sync_source, encoding="utf-8")
+    # Always emit LF to keep generated output stable across platforms.
+    sync_path.write_text(sync_source, encoding="utf-8", newline="\n")
 
 
 if __name__ == "__main__":
