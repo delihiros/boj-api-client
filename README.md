@@ -197,3 +197,7 @@ BOJ_RUN_LIVE=1 pytest -m live -q tests/contract_live
 
 - sync orchestrator は async source から生成:
   - `uv run --extra dev python scripts/generate_sync_orchestrator.py`
+- PyPI 公開:
+  - 初回のみ、PyPI 側で Trusted Publisher に GitHub Actions を登録
+  - `pyproject.toml` の `project.version` を更新後、`v<version>` タグを push
+  - GitHub Actions (`.github/workflows/ci.yml`) がテスト成功後に自動 publish
